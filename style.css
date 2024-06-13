@@ -33,6 +33,11 @@ nav a {
     margin: 5px;
 }
 
+nav a:hover {
+    background-color: #F6FAB9;
+    color: #8E3E63;
+}
+
 /* Estilos del main */
 
 main {
