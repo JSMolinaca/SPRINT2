@@ -44,7 +44,7 @@ main {
 }
 
 
-main figure {
+.figures {
     margin: 0;
     padding: 0;
     height: 258px;
@@ -79,7 +79,7 @@ h2 {
     margin-left: 90vw;
     position: fixed;
     z-index: 2;
-    margin-top: 540px;
+    margin-top: 400px;
 }
 
 footer {
@@ -107,3 +107,26 @@ footer {
     margin-bottom: 10px;
 }
 
+
+/* Estilos para el contac */
+.main-contact {
+    display: flex;
+    height: 508px;
+    background-color: #F6FAB9;
+}
+
+.parrafo-contact {
+    font-size: 1.5em;
+    width: 80vw;
+    height: 10vh;
+}
+
+.gmail {
+    position: relative;
+    top: 100px;
+    right: 600px;
+    background-color: #8E3E63;
+    color: #F6FAB9;
+    border-radius: 5px ;
+    padding: 10px;
+}
