@@ -9,36 +9,35 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
 }
 
 figure {
-    padding: 0;
+    pad: 0;
     margin: 0;
     height: 190px;
 }
 
+header figure {
+    padding: 0;
+    margin: 0;
+    height: 150px;
+    position: relative;
+    left:90%;
+}
+
 .logo {
     position: relative;
-    left: 185vh;
-    bottom: 25px;
+    top: 0;
 }
 
-nav {
-    margin: 10px;
-}
 
-nav a {
-    text-decoration: none;
-    font-size: 20px;
-    position: relative;
-    bottom: 160px;
-    margin: 10px;
-    padding: 7px;
-    border: 2px solid black;
-    border-radius: 50px;
-    box-shadow: 2px 2px 4px #000;
-    color: #F6FAB9
-}
 
 nav a:hover {
     background-color: #F6FAB9;
