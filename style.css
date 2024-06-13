@@ -7,11 +7,14 @@
 
 /* Estilos del header */
 header {
+    position: fixed;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 16vh;
     background-color: #8E3E63;
+    z-index: 1;
 }
 
 nav {
@@ -36,26 +39,57 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    top: 100px;
 }
 
-h1 {
-    display: flex;
-    justify-content: center;
-}
 
 main figure {
     margin: 0;
     padding: 0;
-    height: auto;
+    height: 258px;
     position: relative;
     top: 1px;
 }
 
 .container-home {
-    
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    width: 1100px;
+    height: 210px;
+    background-color: #F6FAB9;
+    align-items: center;
 }
 
+h2 {
+    display: flex;
+    align-items: center;
+    width: 700px;
+    height: 200px;
+    font-size: 1.3em;
+    margin: 20px;
+}
 
+.image-presentation {
+    border-radius: 30px;
+}
+
+.image-whatssap {
+    margin-left: 90vw;
+    position: fixed;
+    z-index: 2;
+    margin-top: 540px;
+}
+
+footer {
+    position: relative;
+    top: 101px;
+    display: flex;
+    justify-content: center;
+    background-color: #8E3E63;
+    color: #F6FAB9;
+}
 
 
 
