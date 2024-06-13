@@ -173,5 +173,38 @@ td {
 }
 
 .footer-information {
-    width: 100%;
+    width: 100%
+}
+
+/* Estilos para la page BenefitsTips */
+
+.main-benefit {
+    background-color: #F6FAB9;
+}
+
+.container-benefit {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 3px solid #8E3E63;
+    width: 40vw;
+    height: 55vh;
+    margin: 10px;
+}
+
+.concon {
+    height:30vh;
+}
+
+.title {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-size: 1.6em;
+    color: #8E3E63;
+}
+
+li {
+    display: flex;
+    justify-content: center;
 }
