@@ -4,6 +4,8 @@
     font-family: Lobster;
 }
 
+
+/* Estilos del header */
 header {
     display: flex;
     align-items: center;
@@ -17,5 +19,16 @@ nav {
 }
 
 nav a {
-    
+    margin 10px;
+    padding: 7px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #F6FAB9;
+    border: 2px solid black;
+    border-radius: 50px;
+    box-shadow: 2px 2px 4px #000;
+    margin: 5px;
 }
+
+/* Estilos del main */
+
