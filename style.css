@@ -3,179 +3,19 @@
     padding: 0;
     font-family: Lobster;
 }
+
 header {
-    background-color: #8E3E63;;
-    height: 100px;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
     display: flex;
     align-items: center;
-}
-
-.header {
-    display: flex;
-    align-items: center;
-}
-
-figure {
-    pad: 0;
-    margin: 0;
-    height: 190px;
-}
-
-header figure {
-    padding: 0;
-    margin: 0;
-    height: 150px;
-    position: relative;
-    left:90%;
-}
-
-.logo {
-    position: relative;
-    top: 0;
-}
-
-
-
-nav a:hover {
-    background-color: #F6FAB9;
-    color: #8E3E63;
-}
-
-main {
-    height: 480px;
-}
-
-h1 {
-    text-align: center;
-    margin: 15px;
-    font-size: 50px;
-}
-
-.image-home {
-    text-align: center;
-}
-
-.image-h1 {
-    width: 300px;
-    position: relative;
-    bottom: 70px;
-}
-
-h2 {
-    font-size:20px;
-    position: relative;
-    left: 150px;
-}
-
-.container-home {
-    font-size: 0;
-    width: 75%;
-    margin: 0 auto;
-    margin-top: 30px;
-    height: 177px;
-    background-color: #F6FAB9;
-    border-radius: 20px;
-}
-
-.container-home h2,
-.container-home figure {
-    display: inline-block;
-    width: 50%;
-    vertical-align: top;
-}
-
-.container-home img {
-    border-radius: 30px;
-    position: relative;
-    left: 30vh;
-}
-
-.whatssap {
-    position: fixed;
-    left: 92%;
-    bottom: 70px;
-}
-
-.image-whatssap {
-    height: auto;
-}
-
-.whatssap img {
-    border-radius: 20%;
-}
-
-footer {
+    justify-content: space-between;
+    height: 16vh;
     background-color: #8E3E63;
-    height: 38px;
-    text-align: center;
-    color: #F6FAB9
 }
 
-/* Estilos page sobre nosotros */
-
-.about {
-    position: relative;
-    width: 865px;
-    left: 19%;
+nav {
+    margin: 10px;
 }
 
-#one-image {
-    position: relative;
-    top: 15px;
-    left: 50px;
-}
-
-#container-one {
-    height: 330px;
-}
-
-#container-two {
-    height: 360px;
-    position: relative;
-    bottom: 20px;
-}
-
-.descripcion {
-    position: relative;
-    top: 50px;
-}
-
-.main-about {
-    height: auto;
-}
-
-/* Estilos contact */
-
-.parrafo-contact {
-    width: 60%;
-    text-align: center;
-    position: relative;
-    left: 270px;
-    font-size:  20px;
-}
-
-.gmail {
-    position: relative;
-    left: 100px;
-    background-color: #8E3E63;
-    color: #F6FAB9 ;
-    width: 210px;
-    height: 25px;
-    border-radius: 100px;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif ;
-    font-weight: bold;
-}
-
-.main-contact {
-    background-color: #CAE6B2;
-    position: relative;
-    bottom: 15px;
-}
-.footer-contact {
-    background-color: #fff;
-    color: #8E3E63;
+nav a {
+    
 }
