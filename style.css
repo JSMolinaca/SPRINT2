@@ -91,5 +91,19 @@ footer {
     color: #F6FAB9;
 }
 
+/* Estilos al aboutUs */
 
+.container-about {
+    margin: 10px;
+}
+
+
+#container-two, 
+#container-one {
+    height: auto;
+}
+
+.image-presentation {
+    margin-bottom: 10px;
+}
 
