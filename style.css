@@ -208,3 +208,11 @@ li {
     display: flex;
     justify-content: center;
 }
+
+.container-raffle {
+    text-align: center;
+}
+
+.parrafo-raffle {
+    font-size: 23px;
+}
