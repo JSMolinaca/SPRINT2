@@ -209,6 +209,10 @@ li {
     justify-content: center;
 }
 
+.main-raffle {
+    min-height: 90vh;
+}
+
 .container-raffle {
     text-align: center;
 }
@@ -216,3 +220,33 @@ li {
 .parrafo-raffle {
     font-size: 23px;
 }
+
+.form-map {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    justify-content: space-evenly;
+}
+
+.map {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 12px;
+}
+
+.sect-form, .map {
+    position: relative;
+    top: 27px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 14px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.footer raffle

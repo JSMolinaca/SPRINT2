@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,11 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lobster&display=swap"
+        rel="stylesheet">
     <link rel="ico" href="./assets/img/favicon.ico">
 </head>
+
 <body>
     <header>
         <nav>
@@ -21,22 +24,72 @@
             <a href="raffle.html">Raffle</a>
         </nav>
         <figure>
-            <img class="logo"  src="./assets/img/logo.png" alt="logo SnowyCream" width="135px">
+            <img class="logo" src="./assets/img/logo.png" alt="logo SnowyCream" width="135px">
         </figure>
     </header>
-    <main>
+    <main class="main-raffle">
         <div class="container-raffle">
             <h1>Rifa</h1>
-            <p class="parrafo-raffle">Puede colaborar para realizar un evento expositivo y participar en un sorteo para ganar un caballete</p>
+            <p class="parrafo-raffle">Puede colaborar para realizar un evento expositivo y participar en un sorteo para
+                ganar un caballete</p>
         </div>
         <div class="form-map">
-            <section>
+            <section class="map">
+                <p>Nuestra ubicacion es en:</p>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.5905683086694!2d-74.05514752603445!3d4.666853341952174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9af5539e0589%3A0x58f8536449f01c72!2sCentro%20Comercial%20Andino!5e0!3m2!1ses!2sco!4v1718815194915!5m2!1ses!2sco"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    width="400" height="410" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+            <section class="sect-form">
+                <form class="form" action="" method="get">
+                    <label>
+                        Primer nombre
+                    </label>
+                    <input type="text" name="lastname" required>
+                    <label>
+                        Segundo nombre
+                    </label>
+                    <input type="text" name="lastname" required>
+                    <label>
+                        Selecionar Meet o Zoom
+                    </label>
+                    <select name="select" required>
+                        <option value="Meet">Meet</option>
+                        <option value="Zoom">Zoom</option>
+                    </select>
+                    <label>
+                        Fecha
+                    </label>
+                    <input type="date" name="date" required>
+                    <label>
+                        Opciones de pago
+                    </label>
+                    <label>
+                        <input type="radio" name="pay" value="Efectivo" required>
+                        Efectivo
+                    </label>
+                    <label>
+                        <input type="radio" name="pay" value="Credito" required>
+                        Tarjeta credito
+                    </label>
+                    <label>
+                        <input type="radio" name="pay" value="Debito" required>
+                        Tarjeta debito
+                    </label>
+                    <label>
+                        Mensaje (opcional)
+                    </label>
+                    <textarea name="Message"></textarea>
+                    <label>
+                        <input type="checkbox" name="check" value="Acepto" required>
+                        Acepto <a href="">Terminos y condiciones.</a>
+                        <button>Submit</button>
+                    </label>
+                </form>
             </section>
         </div>
     </main>
 </body>
+
 </html>
